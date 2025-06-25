@@ -37,7 +37,7 @@ To set up and run this project locally:
     git clone [https://github.com/fuaSmart/amharic_ecommerce_data_extractor.git](https://github.com/fuaSmart/amharic_ecommerce_data_extractor.git)
     cd amharic_ecommerce_data_extractor
     ```
-    *(Replace `your_github_username` and `amharic_ecommerce_data_extractor` with your actual details).*
+
 
 2.  **Create and activate a Python virtual environment:**
     ```bash
@@ -46,8 +46,7 @@ To set up and run this project locally:
     source venv/bin/activate
     # On Windows (Command Prompt):
     .\venv\Scripts\activate
-    # On Windows (PowerShell):
-    .\venv\Scripts\Activate.ps1
+    
     ```
 
 3.  **Install dependencies:**
@@ -62,11 +61,11 @@ To set up and run this project locally:
     TG_API_HASH=your_api_hash_here
     phone=+251XXXXXXXXX # Your Telegram phone number with country code
     ```
-    *(This file is automatically ignored by Git for security.)*
+
 
 ## ▶ Getting Started / Usage
 
-### Task 1: Data Ingestion & Preprocessing (Completed)
+### Task 1: Data Ingestion & Preprocessing 
 
 This phase involved collecting raw Telegram data and preparing it for analysis and model training.
 
